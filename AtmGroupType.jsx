@@ -1,4 +1,4 @@
-import { GenericPage } from "./generic";
+import { GenericPage } from "@ncr/generic";
 import React from "react";
 
 const config = {
