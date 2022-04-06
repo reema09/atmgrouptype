@@ -1,0 +1,68 @@
+{
+  "name": "atmgroup",
+  "version": "3.0.0",
+  "description": "testing screen flexibility",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reema09/atmgrouptype.git"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@ncr/generic": "^1.0.9",
+    "react": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+	"core-js": "^3.20.3",
+    "echarts": "^5.2.2",
+    "echarts-for-react": "^3.0.2",
+    "@react-spring/web": "^9.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.4",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "cross-env": "^7.0.3",
+    "react": "^17.0.1"
+  },
+  "peerDependencies": {
+     "@babel/polyfill": "^7.12.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@ncr/generic": "^1.0.9",
+    "react": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+	"core-js": "^3.20.3",
+    "echarts": "^5.2.2",
+    "echarts-for-react": "^3.0.2",
+    "@react-spring/web": "^9.3.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production babel src --out-dir dist --copy-files",
+    "deploy": "npm publish --access=public"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
